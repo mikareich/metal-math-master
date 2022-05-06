@@ -1,5 +1,5 @@
 import formatOperators from "./formatOperators.js";
-import loadExercises from "./getExercises.js";
+import getExercises from "./getExercises.js";
 
 // render exercises
 function createExercise(exercise) {
@@ -25,7 +25,7 @@ function createExercise(exercise) {
 const exercisesList = document.getElementById("exercisesList");
 
 window.addEventListener("load", async () => {
-  const exercises = await loadExercises();
+  const exercises = await getExercises();
 
   exercises.forEach((exercise) => {
     const li = createExercise(exercise);
