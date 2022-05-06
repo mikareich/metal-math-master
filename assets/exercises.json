@@ -18,14 +18,14 @@
     "operators": ["a*b", "a/b"],
     "timePerQuestion": 5000,
     "numberOfQuestions": 20,
-    "difficulty": "moderate"
+    "difficulty": "medium"
   },
   {
     "id": 3,
     "operators": ["a+b", "a-b", "a*b"],
     "timePerQuestion": 5000,
     "numberOfQuestions": 20,
-    "difficulty": "difficult"
+    "difficulty": "hard"
   },
   {
     "id": 4,

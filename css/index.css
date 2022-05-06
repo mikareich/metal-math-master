@@ -57,10 +57,10 @@
   color: var(--nord14);
 }
 
-.exercise__difficulty-moderate {
+.exercise__difficulty-medium {
   color: var(--nord13);
 }
-.exercise__difficulty-difficult {
+.exercise__difficulty-hard {
   color: var(--nord11);
 }
 
