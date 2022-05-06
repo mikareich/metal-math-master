@@ -1,0 +1,46 @@
+.status-bar {
+  height: 10px;
+}
+
+.status-bar__indicator {
+  background-color: var(--nord14);
+  height: 100%;
+  transition: 0.2s;
+  /* beispiel */
+  width: 32%;
+}
+
+.question-container {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.answer-container {
+  margin: 75px auto;
+  width: 80vw;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr 1fr);
+  grid-gap: 50px;
+}
+
+.answer-choice {
+  border-radius: 5px;
+  border: 1px solid var(--nord3);
+  color: var(--nord4);
+  padding: 25px;
+  font-size: 20px;
+  transition: 0.2s;
+  background-color: transparent;
+}
+
+.answer-choice:active {
+  background-color: var(--nord2);
+}
+
+.skip-question-button {
+  text-align: center;
+  margin-top: 50px;
+  font-style: italic;
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "operators": ["a+b"],
+    "timePerQuestion": 5000,
+    "numberOfQuestions": 20,
+    "difficulty": "easy"
+  },
+  {
+    "id": 1,
+    "operators": ["a+b", "a-b"],
+    "timePerQuestion": 5000,
+    "numberOfQuestions": 20,
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "operators": ["a*b", "a/b"],
+    "timePerQuestion": 5000,
+    "numberOfQuestions": 20,
+    "difficulty": "moderate"
+  },
+  {
+    "id": 3,
+    "operators": ["a+b", "a-b", "a*b"],
+    "timePerQuestion": 5000,
+    "numberOfQuestions": 20,
+    "difficulty": "difficult"
+  },
+  {
+    "id": 4,
+    "operators": ["a*b", "a*b*c"],
+    "timePerQuestion": 5000,
+    "numberOfQuestions": 20,
+    "difficulty": "pro"
+  }
+]

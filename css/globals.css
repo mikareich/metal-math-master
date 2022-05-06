@@ -1,0 +1,33 @@
+/* Layouts */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: var(--nord6);
+  background-color: var(--nord0);
+}
+
+.container {
+  width: clamp(280px, 80vw, 500px);
+  margin: 40px auto;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.description {
+  color: var(--nord4);
+  font-style: italic;
+}

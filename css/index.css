@@ -1,0 +1,69 @@
+.navbar {
+  margin-bottom: 40px;
+}
+
+.navbar .navbar__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: var(--nord6);
+  text-decoration: none;
+}
+
+.description {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.exercises-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.exercise-container {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 200ms;
+}
+
+.exercise-container:hover {
+  background-color: var(--nord3);
+}
+
+.exercise__link {
+  text-decoration: none;
+  color: unset;
+  display: flex;
+}
+
+.exercise__index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  margin-right: 20px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: var(--nord6) solid 1px;
+}
+
+.exercise__operators {
+  margin-right: auto;
+}
+
+.exercise__difficulty-easy {
+  color: var(--nord14);
+}
+
+.exercise__difficulty-moderate {
+  color: var(--nord13);
+}
+.exercise__difficulty-difficult {
+  color: var(--nord11);
+}
+
+.exercise__difficulty-pro {
+  color: var(--nord15);
+}
