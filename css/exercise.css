@@ -35,6 +35,10 @@
   background-color: transparent;
 }
 
+.answer-choice:hover {
+  background-color: var(--nord1);
+}
+
 .answer-choice:active {
   background-color: var(--nord2);
 }
