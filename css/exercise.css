@@ -18,7 +18,7 @@
 
 .answer-container {
   margin: 75px auto;
-  width: 80vw;
+  width: 80%;
   text-align: center;
   display: grid;
   grid-template-columns: repeat(1, 1fr 1fr);
