@@ -3,14 +3,14 @@
     "id": 0,
     "operators": ["a+b"],
     "timePerQuestion": 5000,
-    "numberOfQuestions": 20,
+    "numberOfQuestions": 30,
     "difficulty": "easy"
   },
   {
     "id": 1,
     "operators": ["a+b", "a-b"],
     "timePerQuestion": 5000,
-    "numberOfQuestions": 20,
+    "numberOfQuestions": 30,
     "difficulty": "easy"
   },
   {
