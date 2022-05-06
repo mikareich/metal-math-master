@@ -1,7 +1,7 @@
 /** Loads exercises and formats them into json */
-async function loadExercises() {
+async function loadExercises(path = "/assets/exercises.json") {
   try {
-    const response = await fetch("/assets/exercises.json");
+    const response = await fetch(path);
     const exercises = await response.json();
 
     return exercises;
