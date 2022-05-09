@@ -23,57 +23,19 @@
       <h2 class="title">Nice work!</h2>
       <p class="evaluation-text">
         You completed the
-        <span class="exercise-difficulty exercise-difficulty__easy">easy</span>
-        exercise in <b class="test">62.02</b> sec.
+        <span
+          id="exerciseDifficulty"
+          class="exercise-difficulty exercise-difficulty__easy"
+          >easy</span
+        >
+        exercise in <b id="totalTime">62.02</b> sec.
         <br />
         <a href="/index.html">Select a new one?</a>
       </p>
       <h4>Overview</h4>
-      <ol class="questions">
-        <li class="question-container">
-          <span class="question-index"> 1. </span>
-          <span class="question__equation">
-            21+25=<span class="question__answer question__answer-correct"
-              >46</span
-            >
-          </span>
-
-          <span class="question__time">3.02sec</span>
-        </li>
-        <li class="question-container">
-          <span class="question-index"> 2. </span>
-
-          <span class="question__equation">
-            23+86=<span class="question__answer question__answer-correct"
-              >109</span
-            >
-          </span>
-
-          <span class="question__time">4.49sec</span>
-        </li>
-        <li class="question-container">
-          <span class="question-index"> 3. </span>
-
-          <span class="question__equation">
-            43+8=<span class="question__answer question__answer-wrong">55</span>
-          </span>
-
-          <span class="question__time">2.56sec</span>
-        </li>
-        <li class="question-container">
-          <span class="question-index"> 4. </span>
-
-          <span class="question__equation">
-            70+61=<span class="question__answer question__answer-skipped"
-              >skipped</span
-            >
-          </span>
-
-          <span class="question__time">3.56sec</span>
-        </li>
-      </ol>
+      <ol id="questions" class="questions"></ol>
     </div>
 
-    <script src="./js/index.js" type="module"></script>
+    <script src="./js/evaluation.js" type="module"></script>
   </body>
 </html>
