@@ -1,0 +1,57 @@
+.title {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.evaluation-text {
+  margin-top: 50px;
+  color: var(--nord4);
+}
+
+.exercise-difficulty {
+  font-weight: bold;
+}
+
+.exercise-difficulty__easy {
+  color: var(--nord14);
+}
+
+.exercise-difficulty__medium {
+  color: var(--nord13);
+}
+
+.exercise-difficulty__hard {
+  color: var(--nord11);
+}
+
+.exercise-difficulty__pro {
+  color: var(--nord15);
+}
+
+.questions {
+  padding-left: 10px;
+  list-style: none;
+}
+
+.question-container {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.question__equation {
+  margin-right: auto;
+  margin-left: 20px;
+}
+
+.question__answer-correct {
+  color: var(--nord14);
+}
+
+.question__answer-wrong {
+  color: var(--nord11);
+}
+
+.question__answer-skipped {
+  color: var(--nord4);
+  font-style: italic;
+}
