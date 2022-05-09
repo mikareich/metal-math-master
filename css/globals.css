@@ -27,6 +27,10 @@ h6 {
   font-family: "Open Sans", sans-serif;
 }
 
+a {
+  color: var(--nord6);
+}
+
 .description {
   color: var(--nord4);
   font-style: italic;
